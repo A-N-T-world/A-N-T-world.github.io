@@ -6,7 +6,7 @@ function change(input){
 function ButtonPress() {
     var value = document.getElementById("input").value;
     if (value != 'ЯпзНЂϩЩътгЪсϪЊФГЧЯЯϪϼИфрϯ') {
-        alert('you may not got the right password');
+        alert('wrong!');
         window.opener = null;
         window.open('', '_self'); window.close();
     }
